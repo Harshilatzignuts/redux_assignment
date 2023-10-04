@@ -1,0 +1,22 @@
+@import url(bootstrap/dist/css/bootstrap.min.css);
+
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.group_btn, .add_quntity{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.group_btn button{
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  line-height: 0;
+}
